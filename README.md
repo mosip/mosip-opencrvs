@@ -17,4 +17,4 @@ This project is licensed under the terms of [Mozilla Public License 2.0](LICENSE
 - Refer to [deployment instructions](./deployment), for installing this project on a kubernetes cluster using the above helm charts.
 
 ## Notes
-Refer to [Notes](./notes.md).
+Refer to [Notes](./notes.md). 
