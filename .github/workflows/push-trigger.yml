@@ -25,7 +25,7 @@ jobs:
   build-maven-opencrvs-mediator:
     uses: mosip/kattu/.github/workflows/maven-build.yml@master
     with:
-      SERVICE_LOCATION: ./mediator
+      SERVICE_LOCATION: mediator
       BUILD_ARTIFACT: opencrvs-mediator
     secrets:
       OSSRH_USER: ${{ secrets.OSSRH_USER }}
@@ -58,7 +58,7 @@ jobs:
   build-maven-regproc-opencrvs-stage:
     uses: mosip/kattu/.github/workflows/maven-build.yml@master
     with:
-      SERVICE_LOCATION: ./registration-processor-opencrvs-stage
+      SERVICE_LOCATION: registration-processor-opencrvs-stage
       BUILD_ARTIFACT: registration-processor-opencrvs-stage
     secrets:
       OSSRH_USER: ${{ secrets.OSSRH_USER }}
