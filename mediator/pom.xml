@@ -16,9 +16,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:git://github.com/mosip/converters.git</connection>
-		<developerConnection>scm:git:ssh://github.com:mosip/converters.git</developerConnection>
-		<url>https://github.com/mosip/converters</url>
+		<connection>scm:git:git://github.com/mosip/mosip-opencrvs.git</connection>
+		<developerConnection>scm:git:ssh://github.com:mosip/mosip-opencrvs.git</developerConnection>
+		<url>https://github.com/mosip/mosip-opencrvs</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -27,7 +27,7 @@
 			<name>Mosip</name>
 			<email>mosip.emailnotifier@gmail.com</email>
 			<organization>io.mosip</organization>
-			<organizationUrl>https://github.com/mosip/converters</organizationUrl>
+			<organizationUrl>https://github.com/mosip/mosip-opencrvs</organizationUrl>
 		</developer>
 	</developers>
 	<properties>
