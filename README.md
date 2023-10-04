@@ -16,5 +16,4 @@ This project is licensed under the terms of [Mozilla Public License 2.0](LICENSE
 - [mosip-side-opencrvs-mediator](https://github.com/mosip/mosip-helm/tree/1.2.0/charts/opencrvs-mediator) and [registration-processor-opencrvs-stage](https://github.com/mosip/mosip-helm/tree/1.2.0/charts/regproc-opencrvs) are available as installable helm chart.
 - Refer to [deployment instructions](./deployment), for installing this project on a kubernetes cluster using the above helm charts.
 
-## Notes
-Refer to [Notes](./notes.md).
+## NotesRefer to [Notes](./notes.md).
