@@ -24,12 +24,12 @@ echo Copy Secrets.
 ./copy_secrets.sh
 
 echo Installing mosip-side opencrvs-mediator...
-helm -n $NS install opencrvs-mediator /home/techno-376/IdeaProjects/mosip-helm/charts/opencrvs-mediator \
+helm -n $NS install opencrvs-mediator mosip/opencrvs-mediator \
   --version $CHART_VERSION \
   -f values.yaml \
   --wait
 
 echo Installing regproc-opencrvs-stage...
-helm -n $NS install regproc-opencrvs-stage /home/techno-376/IdeaProjects/mosip-helm/charts/regproc-opencrvs \
+helm -n $NS install regproc-opencrvs-stage mosip/regproc-opencrvs \
   --version $CHART_VERSION \
   --wait
