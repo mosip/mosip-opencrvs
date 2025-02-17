@@ -7,6 +7,8 @@
 	<groupId>io.mosip.registrationprocessor</groupId>
 	<artifactId>registration-processor-opencrvs-stage</artifactId>
 	<name>registration-processor-opencrvs-stage</name>
+	<description>Mosip registration-processor-opencrvs-stage project </description>
+	<url>https://github.com/mosip/mosip-opencrvs</url>
 	<version>1.2.1-SNAPSHOT</version>
 
 	<licenses>
