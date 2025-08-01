@@ -1,5 +1,8 @@
 # MOSIP OpenCRVS Integration - MOSIP Side Mediator
 
+>[!NOTE]
+This repository is archived in favour of a newer approach. https://docs.mosip.io/1.2.0/interoperability/integrations/mosip-crvs-integration 
+
 ## Overview
 This repo contains following MOSIP side of components for the MOSIP OpenCRVS integration:
   - _MOSIP side OpenCRVS Mediator_ ([`mosip-side-opencrvs-mediator`](./mediator)) receives data from OpenCRVS, creates registration packet, and uploads it to registration processor.
